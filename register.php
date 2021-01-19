@@ -110,7 +110,7 @@
           title: "Thank you for registering!",
           text: "Please visit your inbox to verify your account",
         });
-        let timeoutID = window.setTimeout(window.location.replace("login.php"), 4*1000);
+        let timeoutID = window.setTimeout("window.location.replace('login.php')", 3*1000);
       } else if (data == 601) {
         // user already exists
         Swal.fire({
