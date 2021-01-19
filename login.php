@@ -96,6 +96,13 @@
         window.location.replace("index.php");
       } else if (data == 602) {
         // user does not exist, prompt to check email/register
+        Swal.fire({
+          icon: "error",
+          title: "User does not exist",
+          text: "Please check your email and try again",
+          html: "If you have forgotton your password, follow the <a href=''>'Forgot Password?'</a> link to reset it",
+          footer: "Contact us at support@naturalhr.net if you have any other questions"
+        });
       } else if (data == 603) {
         // incorrect password, prompt to try again
         $("#inputPassword").css("border", "1px solid red");

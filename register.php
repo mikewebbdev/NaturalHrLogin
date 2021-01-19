@@ -117,7 +117,7 @@
           icon: "error",
           title: "User already registered",
           text: "Please check your email and try again",
-          html: "If you have forgotton your password, follow the <a href='reset.php'>'Forgot Password?'</a> link to reset it",
+          html: "If you have forgotton your password, follow the <a href=''>'Forgot Password?'</a> link to reset it",
           footer: "Contact us at support@naturalhr.net if you have any other questions"
         })
       } else {
